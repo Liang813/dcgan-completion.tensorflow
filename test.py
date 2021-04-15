@@ -1,1 +1,8 @@
+print("Traceback (most recent call last):")
+print(" File './dcgan-completion.tensorflow-buggy/train-dcgan.py', line 41, in <module>")
+print("  dcgan.train(FLAGS)")
+print(" File '/home/metadata/TensorFlow-Program-Bugs/Github/APIM-5/dcgan-completion.tensorflow-buggy/model.py', line 197, in train")
+print("  self.save(config.checkpoint_dir, counter)")
+print(" File '/home/metadata/TensorFlow-Program-Bugs/Github/APIM-5/dcgan-completion.tensorflow-buggy/model.py', line 347, in save")
+print("  max_to_keep=1)")
 print("TypeError: save() got an unexpected keyword argument 'max_to_keep'")
